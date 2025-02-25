@@ -6,19 +6,18 @@
     background-color: var(--very-dark-color);
     color: var(--very-light-color);
     height: 100dvh;
+    display: flex;
 }
 
 .homePage_GeralContainer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 7rem;
-    justify-content: space-between;
+    gap: 5rem;
 }
 
 .homePage_Section .logotype {
     display: flex;
-    margin-top: 2rem;
     gap: .7rem;
 }
 

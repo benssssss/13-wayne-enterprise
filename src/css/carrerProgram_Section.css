@@ -1,0 +1,62 @@
+.carrerProgram_GeralContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+}
+
+.carrerProgram_Section .carrerProgram__image {
+    height: 100px;
+    width: 125px;
+}
+
+.carrerProgram_Section .title_description__title {
+    font-size: 4.2rem;
+    line-height: 5rem;
+    text-align: center;
+}
+
+.carrerProgram_Section .medium_title,
+.carrerProgram_Section .big_title {
+    display: block;
+    text-transform: uppercase;
+}
+
+.carrerProgram_Section .big_title {
+    font-size: 7.1rem;
+    font-weight: var(--extraBold);
+}
+
+.carrerProgram_Section .medium_title {
+    font-size: 2.5rem;
+    margin-top: -0.7rem;
+}
+
+.carrerProgram_Section .title_description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.carrerProgram_Section .title_description_description {
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    width: 90%;
+    font-weight: var(--light);
+    text-align: center;
+}
+
+.carrerProgram_Section .carrerProgram_GeralContainer .carrerProgram_button {
+    background-color: var(--very-dark-color);
+    padding: .8rem;
+    border-radius: 50px;
+    text-align: center;
+    margin-top: 1rem;
+    width: 100%;
+}
+
+.carrerProgram_Section .carrerProgram_GeralContainer .carrerProgram_button a {
+    color: var(--very-light-color);
+    font-weight: var(--regular);
+    font-size: 1.4rem;
+}
