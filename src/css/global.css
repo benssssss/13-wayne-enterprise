@@ -1,3 +1,16 @@
+
+
 .italic {
     font-style: italic;
+}
+
+.homePage_GeralContainer,
+.carrerProgram_GeralContainer,
+.expertiseAreas_GeralContainer,
+.partnership_GeralContainer,
+.faqS_GeralContainer,
+.article_GeralContainer,
+.footer_GeralContainer {
+    width: 320px;
+    padding: 2.4rem;
 }

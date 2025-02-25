@@ -1,0 +1,99 @@
+.homePage_Image_Container {
+    display: none;
+}
+
+.homePage_Section {
+    background-color: var(--very-dark-color);
+    color: var(--very-light-color);
+    height: 100dvh;
+}
+
+.homePage_GeralContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 7rem;
+    justify-content: space-between;
+}
+
+.homePage_Section .logotype {
+    display: flex;
+    margin-top: 2rem;
+    gap: .7rem;
+}
+
+.homePage_Section .logotype__logo {
+    height: 25px;
+}
+
+.homePage_Section .logotype__text {
+    font-weight: var(--very-light);
+    letter-spacing: .18rem;
+}
+
+.homePage_Section .logotype__text p {
+    height: 35%;
+}
+
+.homePage_Section .title_description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.4rem;
+}
+
+.homePage_Section .title_description__title {
+    font-size: 4.7rem;
+}
+
+.homePage_Section .title_description__title .big_title {
+    font-size: 6.8rem;
+    margin-top: -3.2rem;
+}
+
+.homePage_Section .title_description__title .medium_title {
+    font-size: 3.72rem;
+    margin-top: -3rem;
+}
+
+.homePage_Section .title_description__title .medium_title,
+.homePage_Section .title_description__title .big_title {
+    display: block;
+}
+
+.homePage_Section .title_description__description {
+    font-weight: var(--very-light);
+    font-size: 1.4rem;
+    text-align: center;
+    width: 80%;
+}
+
+.homePage_Section .email_input {
+    margin-top: 4rem;
+    background: var(--very-dark-color);
+    border: 1px solid var(--soft-dark-color);
+    display: flex;
+    justify-content: end;
+    border-radius: 30px;
+}
+
+.homePage_Section .email_input .email_input__input {
+    padding: 10px 25px;
+    border: 0;
+    background: var(--very-dark-color);
+    height: 35px;
+    border-radius: 30px;
+    width: 100%;
+    font-size: 10px;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.email_submit {
+    width: 20%;
+    height: 31px;
+    border-radius: 30px;
+    position: absolute;
+    margin-top: 2px;
+    margin-right: 2px;
+}
