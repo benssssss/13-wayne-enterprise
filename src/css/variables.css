@@ -1,0 +1,15 @@
+:root {
+
+    --error-color: #F62950;
+    --very-light-color: #FFF;
+    --soft-light-color: #D3D3D3;
+    --very-dark-color: #000;
+    --dark-color: #0B0B0B;
+    --soft-dark-color: #282828;
+
+    --extraBold: 800;
+    --bold: 700;
+    --regular-text: 400;
+    --light-text: 300;
+    
+}
