@@ -1,0 +1,25 @@
+.expertiseAreas_Section {
+    background-color: var(--very-dark-color);
+    color: var(--very-light-color);
+    padding: 3rem 0;
+}
+
+.expertiseAreas_Title_Container .title_description .title_description__title {
+    font-size: 6rem;
+    line-height: 5.5rem;
+    font-weight: var(--regular);
+}
+
+.expertiseAreas_Title_Container .title_description .title_description_description {
+    font-size: 1.2em;
+    margin-top: 2.5rem;
+    width: 95%;
+    font-weight: var(--light);
+    text-align: center;
+}
+
+.expertiseAreas_Text_Image_Container {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 4rem;
+}
