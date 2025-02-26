@@ -1,0 +1,21 @@
+.partnership_IconComposition_Container {
+    text-align: center;
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.partnership_IconComposition_Container .compositionBox__icon {
+    font-size: 6rem;
+}
+
+.partnership_IconComposition_Container .compositionBox_title {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+.partnership_IconComposition_Container .compositionBox_description {
+    width: 70%;
+    margin: auto;
+}

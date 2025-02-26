@@ -1,0 +1,29 @@
+.partnership_Section .title_description {
+    text-align: center;
+}
+
+.partnership_Section .title_description__title {
+    font-size: 3.5rem;
+    line-height: 3.5rem;
+    font-weight: var(--regular);
+}
+
+.partnership_Section .title_description__description {
+    font-size: 1.8rem;
+    width: 85%;
+    font-weight: var(--light);
+    margin: 1rem auto 0;
+}
+
+.partnership_Icon_Container {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    margin-top: 7rem;
+    align-items: center;
+}
+
+.partnership_Icon_Container__image {
+    height: 65px;
+    width: 65px;
+}
