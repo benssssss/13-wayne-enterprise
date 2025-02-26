@@ -1,0 +1,10 @@
+.hide {
+    display: none;
+}
+
+#buttonMinus1,
+#buttonMinus2,
+#buttonMinus3,
+#buttonMinus4 {
+    display: none;
+}

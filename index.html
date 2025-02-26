@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="src/css/reset.css">
     <link rel="stylesheet" href="src/css/global.css">
     <link rel="stylesheet" href="src/css/variables.css">
+    <link rel="stylesheet" href="src/css/detailReveal.css">
     <link rel="stylesheet" href="src/css/header.css">
     <link rel="stylesheet" href="src/css/homePage_Section.css">
     <link rel="stylesheet" href="src/css/carrerProgram_Section.css">
@@ -177,24 +178,40 @@
                         </div>
 
                         <div class="answerQuestion_Box">
+
                             <div class="answerQuestion_Box__question">
                                 <h3 class="question">O que é a Wayne Enterprises?</h3>
-                                <button class="expandButton"><i class="fa-solid fa-plus"></i></button>
+
+                                <button class="expandButton" id="buttonPlus1"><i class="fa-solid fa-plus"></i></button>
+
+                                <button class="expandButton" id="buttonMinus1"><i
+                                        class="fa-solid fa-minus"></i></button>
+
                             </div>
 
-                            <p class="answerQuestion_Box__answer italic"> Lider global em tecnologia, inovação e
+                            <p class="answerQuestion_Box__answer italic hide" id="awnser1"> Lider global em
+                                tecnologia, inovação e
                                 filantropia
                                 nossa missão principal da companhia é desenvolver produto inovadores e serviços que
-                                elevem ambos negócios mundiais e a sociedade como um todo.</p>
+                                elevem ambos negócios mundiais e a sociedade como um todo.
+                            </p>
+
                         </div>
 
                         <div class="answerQuestion_Box">
                             <div class="answerQuestion_Box__question">
+
                                 <h3 class="question">Como a Wayne Enterprises ajuda Gotham City?</h3>
-                                <button class="expandButton"><i class="fa-solid fa-plus"></i></button>
+
+                                <button class="expandButton" id="buttonPlus2"><i class="fa-solid fa-plus"></i></button>
+
+                                <button class="expandButton" id="buttonMinus2"><i
+                                        class="fa-solid fa-minus"></i></button>
+
                             </div>
 
-                            <p class="answerQuestion_Box__answer italic"> Foco na contribuição da segurança pública,
+                            <p class="answerQuestion_Box__answer italic hide" id="awnser2"> Foco na contribuição da
+                                segurança pública,
                                 desenvolvimento urbano, e responsabilidade social. Nossa missão vai além do lucro -
                                 nosso objetivo é criar mudanças que melhorem a vida dos residentes de Gotham.</p>
                         </div>
@@ -202,22 +219,32 @@
                         <div class="answerQuestion_Box">
                             <div class="answerQuestion_Box__question">
                                 <h3 class="question"> O que é a Wayne Fundation?</h3>
-                                <button class="expandButton"><i class="fa-solid fa-plus"></i></button>
+
+                                <button class="expandButton" id="buttonPlus3"><i class="fa-solid fa-plus"></i></button>
+
+                                <button class="expandButton" id="buttonMinus3"><i
+                                        class="fa-solid fa-minus"></i></button>
                             </div>
 
-                            <p class="answerQuestion_Box__answer italic">Projeto de caridade focado em educação, bem
+                            <p class="answerQuestion_Box__answer italic hide" id="awnser3">Projeto de caridade focado em
+                                educação, bem
                                 estar e
                                 redução da pobreza, trabalhando para criar mudanças e empoderar comunidades vulneraveis
                                 atraves de programas e parcerias estratégicas</p>
                         </div>
 
-                        <div class="answerQuestion_Box">
+                        <div class=" answerQuestion_Box">
                             <div class="answerQuestion_Box__question">
                                 <h3 class="question">Wayne Enterprises tem relação com o Batman?</h3>
-                                <button class="expandButton"><i class="fa-solid fa-plus"></i></button>
+
+                                <button class="expandButton" id="buttonPlus4"><i class="fa-solid fa-plus"></i></button>
+
+                                <button class="expandButton" id="buttonMinus4"><i
+                                        class="fa-solid fa-minus"></i></button>
                             </div>
 
-                            <p class="answerQuestion_Box__answer italic"> Acreditamos firmemente que a justiça
+                            <p class="answerQuestion_Box__answer italic hide" id="awnser4">Acreditamos firmemente que a
+                                justiça
                                 deve ser alcançada por meios legais,
                                 respeitando os direitos e a dignidade
                                 de cada cidadão. Rejeitamos justiça
@@ -276,6 +303,10 @@
         </footer>
 
     </div>
+
+
 </body>
+
+<script src="js/detailReveal.js"></script>
 
 </html>

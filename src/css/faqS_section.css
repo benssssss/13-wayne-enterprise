@@ -13,6 +13,7 @@
 .faqS_section .header {
     display: flex;
     gap: 1rem;
+    flex-direction: row;
     align-items: center;
     background-color: var(--dark-color);
 
@@ -48,7 +49,7 @@
 }
 
 .answerQuestion_Box {
-    margin-top: 1.5rem;
+    margin-top: .7rem;
 }
 
 .question {
