@@ -1,0 +1,26 @@
+.footer {
+    background-color: var(--very-dark-color);
+}
+
+.footer_Container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer_Container__logo {
+    height: 30px;
+    width: 45px;
+}
+
+.footer_Container__icon {
+    font-size: 3rem;
+    color: var(--very-light-color);
+}
+
+.footer_Container_socialMedia_icons {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 1rem;
+    cursor: pointer;
+}
