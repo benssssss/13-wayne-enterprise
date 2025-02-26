@@ -5,7 +5,7 @@
 .homePage_Section {
     background-color: var(--very-dark-color);
     color: var(--very-light-color);
-    height: 100dvh;
+    height: 90dvh;
     display: flex;
 }
 
@@ -13,25 +13,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 5rem;
-}
+    justify-content: center;
 
-.homePage_Section .logotype {
-    display: flex;
-    gap: .7rem;
-}
-
-.homePage_Section .logotype__logo {
-    height: 25px;
-}
-
-.homePage_Section .logotype__text {
-    font-weight: var(--very-light);
-    letter-spacing: .18rem;
-}
-
-.homePage_Section .logotype__text p {
-    height: 35%;
 }
 
 .homePage_Section .title_description {

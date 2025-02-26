@@ -1,0 +1,25 @@
+.header {
+    background-color: var(--very-dark-color);
+}
+
+.header .logotype {
+    display: flex;
+    gap: .7rem;
+}
+
+.header .logotype__logo {
+    height: 30px;
+    width: 40px;
+}
+
+.header .logotype__text {
+    color: var(--very-light-color);
+    font-weight: var(--very-light);
+    letter-spacing: .18rem;
+    display: block;
+    height: 30px;
+}
+
+.header .logotype__text p {
+    height: 35%;
+}
