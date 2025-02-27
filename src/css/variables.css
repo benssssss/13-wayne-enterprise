@@ -6,6 +6,7 @@
     --very-dark-color: #000;
     --dark-color: #0B0B0B;
     --soft-dark-color: #282828;
+    --contrast-color: #E2A0FF;
 
     --extraBold: 800;
     --bold: 700;
@@ -13,4 +14,6 @@
     --light: 300;
     --very-light: 200;
 
+
+    --transition-effect: 0.4s ease-in-out;
 }

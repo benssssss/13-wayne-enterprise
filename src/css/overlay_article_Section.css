@@ -1,0 +1,54 @@
+.article_Section {
+    position: relative;
+}
+
+.shareOverlay {
+    position: absolute;
+    background-color: var(--very-dark-color);
+    bottom: 0;
+    width: 320px;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 2rem;
+    color: var(--very-light-color);
+    display: flex;
+}
+
+#shareButtonOff {
+    background-color: var(--very-light-color);
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#shareButtonOff {
+    color: var(--very-dark-color);
+    font-size: 1.4rem;
+}
+
+.overlay_text {
+    font-size: 1.7rem;
+    font-weight: var(--very-light);
+}
+
+.social_Media_Overlay {
+    display: flex;
+    gap: .8rem;
+}
+
+.social_Media_Overlay i {
+    font-size: 2.7rem;
+}
+
+.twitter {
+    margin-right: -.3rem;
+}
+
+.displayBox {
+    display: none;
+}
+

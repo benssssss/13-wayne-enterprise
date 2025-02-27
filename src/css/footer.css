@@ -24,3 +24,8 @@
     gap: 1rem;
     cursor: pointer;
 }
+
+.footer_Container_socialMedia_icons i:hover {
+    color: var(--contrast-color);
+    transition: 0.4s ease-in-out;
+}

@@ -1,6 +1,9 @@
 .faqS_section {
     background-color: var(--very-dark-color);
     color: var(--very-light-color);
+    height: 90vh;
+    display: flex;
+    justify-content: center;
 }
 
 .faqS_Card {
@@ -68,4 +71,11 @@
     align-items: center;
     justify-content: center;
     color: var(--very-light-color);
+    cursor: pointer;
+}
+
+.expandButton:hover {
+    background-color: var(--contrast-color);
+    color: var(--dark-color);
+    transition: var(--transition-effect);
 }

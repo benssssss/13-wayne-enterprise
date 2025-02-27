@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="src/css/global.css">
     <link rel="stylesheet" href="src/css/variables.css">
     <link rel="stylesheet" href="src/css/detailReveal.css">
+    <link rel="stylesheet" href="src/css/overlay_article_Section.css">
+    <link rel="stylesheet" href="src/css/slider.css">
     <link rel="stylesheet" href="src/css/header.css">
     <link rel="stylesheet" href="src/css/homePage_Section.css">
     <link rel="stylesheet" href="src/css/carrerProgram_Section.css">
@@ -76,7 +78,7 @@
                         Seja parte de uma companhia que valoriza integridade, creatividade, e colaboração. Nós
                         acreditamos que grandes mentes levam a grandes mudanças
                     </h3>
-                    <p class="carrerProgram_button"><a href="#">Junte se ao time</a></p>
+                    <p class="carrerProgram_button"><a>Junte se ao time</a></p>
                 </div>
             </section>
 
@@ -117,9 +119,21 @@
 
                         <div class="expertiseAreas_Image_Container">
                             <div class="expertiseAreas__slider-box">
-                                <img class="expertiseAreas_Image_Container__image" src="src/images/wayneTech.jpg">
-                                <img class="expertiseAreas_Image_Container__image" src="src/images/natureGotham.jpg">
-                                <img class="expertiseAreas_Image_Container__image" src="src/images/gothamSky.jpg">
+
+                                <div class="carouselItem"><img class="expertiseAreas_Image_Container__image"
+                                        src="src/images/wayneTech.jpg"></div>
+
+                                <div class="carouselItem"><img class="expertiseAreas_Image_Container__image"
+                                        src="src/images/natureGotham.jpg"></div>
+
+                                <div class="carouselItem"><img class="expertiseAreas_Image_Container__image"
+                                        src="src/images/gothamSky.jpg"></div>
+
+                            </div>
+
+                            <div class="buttons">
+                                <button id="nextBtn"><i class="nextButton fa-solid fa-arrow-right"></i></button>
+                                <button id="prevBtn"><i class="prevButton fa-solid fa-arrow-right"></i></button>
                             </div>
                         </div>
 
@@ -260,6 +274,7 @@
                     <div class="article_Image_Container">
                         <img src="src/images/pictureArticle.jpg">
                     </div>
+
                     <div class="article_Text_Container">
                         <div class="title_description">
                             <h3 class="title">Transformando o futuro de Gotham
@@ -279,7 +294,24 @@
                             </div>
 
                             <div class="article_creator__share_icon">
-                                <i class="icon fa-solid fa-share"></i>
+                                <i id="shareButton" class="icon fa-solid fa-share"></i>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                    <div class="shareOverlayBox displayBox" id="shareOverlayBox">
+                        <div class="shareOverlay" id="shareOverlay">
+                            <p class="overlay_text">SHARE</p>
+                            <div class="social_Media_Overlay">
+                                <i class="fa-brands fa-x-twitter twitter"></i>
+                                <i class="fa-brands fa-instagram"></i>
+                                <i class="fa-brands fa-square-facebook"></i>
+                            </div>
+
+                            <div>
+                                <i id="shareButtonOff" class="icon fa-solid fa-share"></i>
                             </div>
                         </div>
                     </div>
@@ -307,6 +339,8 @@
 
 </body>
 
+<script src="js/shareVisibility.js"></script>
 <script src="js/detailReveal.js"></script>
+<script src="js/slider.js"></script>
 
 </html>

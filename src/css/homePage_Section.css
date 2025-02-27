@@ -5,16 +5,9 @@
 .homePage_Section {
     background-color: var(--very-dark-color);
     color: var(--very-light-color);
-    height: 90dvh;
+    height: 93dvh;
     display: flex;
-}
-
-.homePage_GeralContainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
-
 }
 
 .homePage_Section .title_description {
@@ -69,13 +62,20 @@
     font-size: 10px;
     text-transform: uppercase;
     position: relative;
+    color: var(--contrast-color);
 }
 
 .email_submit {
-    width: 20%;
+    width: 70px;
     height: 31px;
     border-radius: 30px;
     position: absolute;
     margin-top: 2px;
     margin-right: 2px;
+    cursor: pointer;
+}
+
+.email_submit:hover {
+    background-color: var(--contrast-color);
+    transition: var(--transition-effect);
 }

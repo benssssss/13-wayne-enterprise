@@ -1,8 +1,16 @@
-.header, .homePage_Section,.carrerProgram_Section, .expertiseAreas_Section, .expertiseAreas_Section, .partnership_Section, .faqS_section, .article_Section, .footer {
+.header,
+.homePage_Section,
+.carrerProgram_Section,
+.expertiseAreas_Section,
+.expertiseAreas_Section,
+.partnership_Section,
+.faqS_section,
+.article_Section,
+.footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-} 
+}
 
 
 .italic {
