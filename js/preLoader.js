@@ -3,7 +3,7 @@ function sleep(ms) {
 }
 
 async function wait() {
-    await sleep(1500);  // Waits for 3 seconds
+    await sleep(1500);  // Waits for 1,5 seconds
     document.querySelector('.pre-loader').className += ' hidden';
 }
 

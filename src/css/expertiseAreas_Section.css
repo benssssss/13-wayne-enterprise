@@ -15,7 +15,7 @@
     width: 95%;
     font-weight: var(--light);
     margin: 1.7rem auto 0;
-    text-align: center;
+    text-align: var(--center-align);
 }
 
 .expertiseAreas_Text_Image_Container {

@@ -17,4 +17,17 @@
 
 
     --transition-effect: 0.4s ease-in-out;
+
+    --center-align: center;
+
+    --full-height: 100%;
+    --pointer: pointer;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.flex {
+    display: flex;
 }

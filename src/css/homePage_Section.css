@@ -6,20 +6,20 @@
     background-color: var(--very-dark-color);
     color: var(--very-light-color);
     height: 93dvh;
-    display: flex;
-    justify-content: center;
+    justify-content: var(--center-align);
+}
+
+.homePage_GeralContainer,
+.homePage_Section .title_description {
+    flex-direction: column;
 }
 
 .homePage_GeralContainer {
-    flex-direction: column;
-    display: flex;
     gap: 7rem;
 }
 
 .homePage_Section .title_description {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    align-items: var(--center-align);
     gap: 1.4rem;
 }
 
@@ -45,6 +45,6 @@
 .homePage_Section .title_description__description {
     font-weight: var(--very-light);
     font-size: 1.4rem;
-    text-align: center;
+    text-align: var(--center-align);
     width: 80%;
 }

@@ -1,16 +1,16 @@
 .carrerProgram_Section {
     height: 80vh;
-    display: flex;
+    justify-content: var(--center-align);
+}
+
+.carrerProgram_Section,
+.carrerProgram_GeralContainer {
     flex-direction: column;
-   justify-content: center;
 }
 
 .carrerProgram_GeralContainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    align-items: var(--center-align);
     gap: 3rem;
-
 }
 
 .carrerProgram_Section .carrerProgram__image {
@@ -21,7 +21,7 @@
 .carrerProgram_Section .title_description__title {
     font-size: 4.2rem;
     line-height: 5rem;
-    text-align: center;
+    text-align: var(--center-align);
 }
 
 .carrerProgram_Section .medium_title,
@@ -40,21 +40,23 @@
     margin-top: -0.7rem;
 }
 
+.carrerProgram_Section .title_description_description,
+.carrerProgram_Section .carrerProgram_button {
+    margin-top: 1rem;
+    text-align: var(--center-align);
+}
+
 .carrerProgram_Section .title_description_description {
     font-size: 1.1rem;
-    margin-top: 1rem;
     width: 90%;
     font-weight: var(--light);
-    text-align: center;
 }
 
 .carrerProgram_Section .carrerProgram_button {
     background-color: var(--very-dark-color);
     padding: .8rem;
     border-radius: 50px;
-    text-align: center;
-    margin-top: 1rem;
-    width: 100%;
+    width: var(--full-height);
 }
 
 .carrerProgram_Section .carrerProgram_button a {
