@@ -1,0 +1,46 @@
+.container {
+    border-radius: 50px;
+    border: 2px solid var(--soft-dark-color);
+    width: 272px;
+    height: 40px;
+}
+
+.email_container {
+    display: flex;
+    justify-content: end;
+    height: 100%;
+}
+
+.email_submit {
+    position: relative;
+    width: 70px;
+    background-color: var(--very-light-color);
+    height: 28px;
+    right: 4px;
+    bottom: -4px;
+    border-radius: 30px;
+}
+
+.email_submit:hover {
+    background-color: var(--contrast-color);
+    transition: var(--transition-effect);
+    cursor: pointer;
+}
+
+input[type="email"] {
+    color: var(--very-light-color);
+    padding: 1rem;
+    background-color: transparent;
+    width: 272px;
+    position: absolute;
+    height: 37px;
+    border-radius: 30px;
+}
+
+#error-msg {
+    display: none;
+    color: var(--contrast-color);
+    font-size: 14px;
+    margin-top: 5px;
+    text-align: center;
+}

@@ -32,6 +32,7 @@
     background-color: --very-light-color;
     border-radius: 50%;
     position: relative;
+    cursor: pointer;
 }
 
 #nextBtn {

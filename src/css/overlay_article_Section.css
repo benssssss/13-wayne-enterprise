@@ -23,11 +23,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-#shareButtonOff {
     color: var(--very-dark-color);
     font-size: 1.4rem;
+}
+
+#shareButtonOff:hover {
+    background-color: var(--contrast-color);
+    cursor: pointer;
 }
 
 .overlay_text {
