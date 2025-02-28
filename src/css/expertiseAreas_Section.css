@@ -4,42 +4,45 @@
     padding: 3rem 0;
 }
 
+.expertiseAreas_Title_Container .title_description .title_description__title,
+.expertiseAreas_card .card__title {
+    font-weight: var(--regular);
+}
+
 .expertiseAreas_Title_Container .title_description .title_description__title {
     font-size: 6rem;
     line-height: 5.5rem;
-    font-weight: var(--regular);
+}
+
+.expertiseAreas_Title_Container .title_description .title_description_description,
+.expertiseAreas_card .card__description {
+    font-weight: var(--light);
 }
 
 .expertiseAreas_Title_Container .title_description .title_description_description {
     font-size: 1.2em;
     width: 95%;
-    font-weight: var(--light);
     margin: 1.7rem auto 0;
     text-align: var(--center-align);
 }
 
 .expertiseAreas_Text_Image_Container {
-    display: flex;
     flex-direction: column-reverse;
     margin-top: 4rem;
 }
 
 .expertiseAreas_card {
-    text-align: center;
-    display: flex;
+    text-align: var(--center-align);
     flex-direction: column;
-    align-items: center;
+    align-items: var(--center-align);
     margin-top: 3rem;
 }
 
 .expertiseAreas_card .card__title {
     font-size: 3.2em;
-    font-weight: var(--regular);
 }
 
 .expertiseAreas_card .card__description {
     font-size: 1.2rem;
-    width: 95%;
-    font-weight: var(--light);
-    width: 80%;
+    width: 78%;
 }
