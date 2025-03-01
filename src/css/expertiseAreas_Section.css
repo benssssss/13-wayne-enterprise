@@ -46,9 +46,31 @@
 }
 
 .expertiseAreas_card .card__title {
-    font-size: 3.2em;
+    font-size: 3.2rem;
 }
 
 .expertiseAreas_card .card__description {
     width: 78%;
+}
+
+@media(min-width: 420px) {
+    .expertiseAreas_Title_Container .title_description .title_description__title {
+        font-size: 8.2em;
+        text-align: center;
+        line-height: 7rem;
+    }
+
+    .expertiseAreas_Title_Container .title_description .title_description_description {
+        font-size: 1.7rem;
+        margin-top: 3rem;
+    }
+
+    .expertiseAreas_card .card__title {
+        font-size: 4.5rem;
+    }
+    
+    .expertiseAreas_card .card__description {
+        font-size: 1.4rem;
+        width: 80%;
+    }
 }

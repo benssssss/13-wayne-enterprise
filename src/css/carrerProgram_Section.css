@@ -64,3 +64,23 @@
     font-weight: var(--regular);
     font-size: 1.4rem;
 }
+
+@media(min-width: 420px) {
+    .carrerProgram_Section .title_description__title {
+        font-size: 5.1rem;
+    }
+
+    .carrerProgram_Section .big_title {
+        font-size: 8.5rem;
+        margin-top: var(--low-rem);
+    }
+
+    .carrerProgram_Section .medium_title {
+        margin-top: 0rem;
+        font-size: 3rem;
+    }
+
+    .carrerProgram_Section .title_description_description {
+        font-size: 1.5rem;
+    }
+}

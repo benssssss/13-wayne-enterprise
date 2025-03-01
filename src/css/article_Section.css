@@ -64,3 +64,44 @@
     background-color: var(--contrast-color);
     transition: var(--transition-effect);
 }
+
+@media(min-width: 420px) {
+    .article_Text_Container .title_description .title {
+        font-size: 4rem;
+        line-height: 4rem;
+    }
+
+    .article_Text_Container .description {
+        font-size: 1.6rem;
+        width: 88%;
+    }
+
+    .article_creator__avatar_image {
+        height: 45px;
+        width: 45px;
+    }
+
+    .article_creator__text {
+        height: 20px;
+    }
+
+    
+    .article_creator__text__name {
+        font-size: 1.8rem;
+    }
+
+    .article_creator__text__ocupation {
+        font-size: 1.1rem;
+        margin-top: .3rem;
+    }
+
+    .article_creator__share_icon .icon {
+        font-size: 1.7rem;
+    }
+
+    .article_creator__share_icon {
+        height: 35px;
+        width: 35px;
+    }
+
+}

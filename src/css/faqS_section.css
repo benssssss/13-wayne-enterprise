@@ -2,7 +2,7 @@
     background-color: var(--very-dark-color);
     justify-content: var(--center-align);
     color: var(--very-light-color);
-    height: 90vh;
+    min-height: 100vh;
 }
 
 .faqS_Card,
@@ -84,4 +84,25 @@
     background-color: var(--contrast-color);
     transition: var(--transition-effect);
     color: var(--dark-color);
+}
+
+@media(min-width: 420px) {
+    .question {
+        font-size: 1.4rem;
+    }
+
+    .answerQuestion_Box__question {
+        height: 55px;
+    }
+
+    .expandButton {
+        height: 30px;
+        width: 30px;
+    }
+
+    .answerQuestion_Box__answer {
+        font-size: 1.4rem;
+        height: 150px;
+        padding-right: 3.2rem;
+    }
 }

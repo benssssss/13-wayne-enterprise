@@ -12,6 +12,7 @@
 .homePage_GeralContainer,
 .homePage_Section .title_description {
     flex-direction: column;
+    align-items: center;
 }
 
 .homePage_GeralContainer {
@@ -47,4 +48,28 @@
     font-weight: var(--very-light);
     font-size: 1.4rem;
     width: 80%;
+}
+
+@media(min-width: 420px) {
+    .homePage_Section .title_description__title {
+        font-size: 5.8rem;
+    }
+
+    .homePage_Section .title_description__title .big_title {
+        font-size: 8.5rem;
+        margin-top: -4.5rem;
+    }
+
+    .homePage_Section .title_description__title .medium_title {
+        font-size: 4.6rem;
+        margin-top: -3.8rem;
+    }
+
+    .homePage_Section .title_description__description {
+        font-size: 1.8rem;
+    }
+
+    .homePage_GeralContainer {
+        gap: 5rem;
+    }
 }

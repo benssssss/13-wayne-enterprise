@@ -38,3 +38,22 @@
 img {
     width: var(--full-size);
 }
+
+@media(min-width: 420px) {
+
+    .homePage_GeralContainer,
+    .carrerProgram_GeralContainer,
+    .expertiseAreas_GeralContainer,
+    .partnership_GeralContainer,
+    .faqS_GeralContainer {
+
+        width: 420px;
+    }
+
+    .article_GeralContainer,
+    .header_GeralContainer,
+    .footer_GeralContainer {
+        width: 420px;
+    }
+
+}

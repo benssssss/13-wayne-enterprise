@@ -18,3 +18,17 @@
     margin: auto;
     width: 70%;
 }
+
+@media(min-width: 420px) {
+    .partnership_IconComposition_Container .compositionBox__icon {
+        font-size: 9rem;
+    }
+
+    .partnership_IconComposition_Container .compositionBox_title {
+        font-size: 2.2rem;
+    }
+
+    .partnership_IconComposition_Container .compositionBox_description {
+        font-size: 1.5rem;
+    }
+}

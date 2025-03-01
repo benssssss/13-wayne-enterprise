@@ -3,26 +3,26 @@
 }
 
 .pre-loader {
-    height: var(--full-size);
-    justify-content: center;
-    width: var(--full-size);
-    background: #131212;
-    align-items: center;
     position: fixed;
-    display: flex;
     z-index: 100;
     top: 0;
     left: 0;
+    background: #131212;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
 }
 
 .pre-loader.hidden {
-    animation-fill-mode: forwards;
     animation: fadeOut 1s;
+    animation-fill-mode: forwards;
 }
 
 @keyframes fadeOut {
     100% {
-        visibility: hidden;
         opacity: 0;
+        visibility: hidden;
     }
 }
