@@ -4,9 +4,9 @@
 
 .homePage_Section {
     background-color: var(--very-dark-color);
+    justify-content: var(--center-align);
     color: var(--very-light-color);
     height: 93dvh;
-    justify-content: var(--center-align);
 }
 
 .homePage_GeralContainer,
@@ -43,8 +43,8 @@
 }
 
 .homePage_Section .title_description__description {
+    text-align: var(--center-align);
     font-weight: var(--very-light);
     font-size: 1.4rem;
-    text-align: var(--center-align);
     width: 80%;
 }

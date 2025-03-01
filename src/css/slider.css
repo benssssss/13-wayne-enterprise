@@ -1,5 +1,5 @@
 .expertiseAreas_Image_Container {
-    width: var(--full-height);
+    width: var(--full-size);
     overflow: hidden;
     height: 200px;
 }
@@ -14,8 +14,8 @@
 .carouselItem,
 .carouselItem img,
 .buttons {
-    width: var(--full-height);
-    height: var(--full-height);
+    height: var(--full-size);
+    width: var(--full-size);
 }
 
 .expertiseAreas__slider-box {
@@ -32,12 +32,12 @@
 
 #nextBtn,
 #prevBtn {
-    width: 20px;
-    height: 20px;
-    border: 0;
     background-color: --very-light-color;
-    border-radius: 50%;
     cursor: var(--pointer);
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    border: 0;
 }
 
 #nextBtn {
@@ -49,8 +49,8 @@
 }
 
 .buttons {
-    justify-content: space-between;
     align-items: var(--center-align);
+    justify-content: space-between;
 }
 
 .nextButton {

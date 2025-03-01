@@ -10,8 +10,8 @@
 }
 
 .expertiseAreas_Title_Container .title_description .title_description__title {
-    font-size: 6rem;
     line-height: 5.5rem;
+    font-size: 6rem;
 }
 
 .expertiseAreas_Title_Container .title_description .title_description_description,
@@ -19,10 +19,18 @@
     font-weight: var(--light);
 }
 
+.expertiseAreas_card .card__description,
 .expertiseAreas_Title_Container .title_description .title_description_description {
     font-size: 1.2em;
-    width: 95%;
+}
+
+.expertiseAreas_Title_Container .title_description .title_description_description {
     margin: 1.7rem auto 0;
+    width: 95%;
+}
+
+.expertiseAreas_Title_Container .title_description .title_description_description,
+.expertiseAreas_card {
     text-align: var(--center-align);
 }
 
@@ -32,9 +40,8 @@
 }
 
 .expertiseAreas_card {
-    text-align: var(--center-align);
-    flex-direction: column;
     align-items: var(--center-align);
+    flex-direction: column;
     margin-top: 3rem;
 }
 
@@ -43,6 +50,5 @@
 }
 
 .expertiseAreas_card .card__description {
-    font-size: 1.2rem;
     width: 78%;
 }

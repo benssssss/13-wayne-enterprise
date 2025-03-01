@@ -1,6 +1,5 @@
 .article_Text_Container {
     padding: 1rem 2rem;
-    display: flex;
     flex-direction: column;
     gap: 4.5rem;
 }
@@ -18,13 +17,11 @@
 }
 
 .article_creator {
-    display: flex;
     justify-content: space-between;
 }
 
 .article_creator__avatar_image_text {
-    display: flex;
-    align-items: center;
+    align-items: var(--center-align);
     gap: .8rem;
 }
 
@@ -39,29 +36,28 @@
 
 .article_creator__text__name,
 .article_creator__text__ocupation {
-    display: block;
     line-height: 1.1rem;
+    display: block;
 }
 
 .article_creator__text__name {
-    font-size: 1.3rem;
     font-weight: var(--regular);
+    font-size: 1.3rem;
 }
 
 .article_creator__share_icon {
     background-color: var(--very-dark-color);
+    justify-content: var(--center-align);
+    align-items: var(--center-align);
+    border-radius: 50%;
     height: 30px;
     width: 30px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .article_creator__share_icon .icon {
     color: var(--very-light-color);
+    cursor: var(--pointer);
     font-size: 1.4rem;
-    cursor: pointer;
 }
 
 .article_creator__share_icon:hover {

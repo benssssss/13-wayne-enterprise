@@ -1,8 +1,7 @@
 .partnership_IconComposition_Container {
-    text-align: center;
-    margin-top: 5rem;
-    display: flex;
+    text-align: var(--center-align);
     flex-direction: column;
+    margin-top: 5rem;
     gap: 4rem;
 }
 
@@ -11,11 +10,11 @@
 }
 
 .partnership_IconComposition_Container .compositionBox_title {
+    margin-top: var(--low-rem);
     font-size: 1.5rem;
-    margin-top: 1rem;
 }
 
 .partnership_IconComposition_Container .compositionBox_description {
-    width: 70%;
     margin: auto;
+    width: 70%;
 }

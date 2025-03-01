@@ -1,26 +1,25 @@
 .partnership_Section .title_description {
-    text-align: center;
+    text-align: var(--center-align);
 }
 
 .partnership_Section .title_description__title {
-    font-size: 3.5rem;
-    line-height: 3.5rem;
     font-weight: var(--regular);
+    line-height: 3.5rem;
+    font-size: 3.5rem;
 }
 
 .partnership_Section .title_description__description {
-    font-size: 1.8rem;
-    width: 85%;
     font-weight: var(--light);
     margin: 1rem auto 0;
+    font-size: 1.8rem;
+    width: 85%;
 }
 
 .partnership_Icon_Container {
-    display: flex;
+    align-items: var(--center-align);
     flex-direction: column;
-    gap: 2.5rem;
     margin-top: 7rem;
-    align-items: center;
+    gap: 2.5rem;
 }
 
 .partnership_Icon_Container__image {

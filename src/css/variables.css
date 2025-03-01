@@ -1,27 +1,24 @@
 :root {
 
-    --error-color: #F62950;
-    --very-light-color: #FFF;
+    --secundary-contrast-color: #77B6EA;
     --soft-light-color: #D3D3D3;
-    --very-dark-color: #000;
-    --dark-color: #0B0B0B;
     --soft-dark-color: #282828;
     --contrast-color: #E2A0FF;
-    --secundary-contrast-color: #77B6EA;
+    --very-light-color: #FFF;
+    --very-dark-color: #000;
+    --error-color: #F62950;
+    --dark-color: #0B0B0B;
 
     --extraBold: 800;
-    --bold: 700;
     --regular: 600;
     --light: 300;
     --very-light: 200;
 
-
     --transition-effect: 0.4s ease-in-out;
-
     --center-align: center;
-
-    --full-height: 100%;
     --pointer: pointer;
+    --full-size: 100%;
+    --low-rem: 1rem;
 }
 
 .italic {

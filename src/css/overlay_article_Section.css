@@ -5,40 +5,39 @@
 .shareOverlay {
     position: absolute;
     background-color: var(--very-dark-color);
-    bottom: 0;
+    align-items: var(--center-align);
+    color: var(--very-light-color);
+    justify-content: space-between;
+    padding: 0rem 2rem;
+    display: flex;
     width: 320px;
     height: 60px;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0rem 2rem;
-    color: var(--very-light-color);
-    display: flex;
+    bottom: 0;
 }
 
 #shareButtonOff {
     background-color: var(--very-light-color);
+    justify-content: var(--center-align);
+    align-items: var(--center-align);
+    color: var(--very-dark-color);
+    border-radius: 50%;
+    font-size: 1.4rem;
+    display: flex;
     height: 30px;
     width: 30px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: var(--very-dark-color);
-    font-size: 1.4rem;
 }
 
 #shareButtonOff:hover {
     background-color: var(--contrast-color);
-    cursor: pointer;
+    cursor: var(--pointer);
 }
 
 .overlay_text {
-    font-size: 1.7rem;
     font-weight: var(--very-light);
+    font-size: 1.7rem;
 }
 
 .social_Media_Overlay {
-    display: flex;
     gap: .8rem;
 }
 
@@ -53,4 +52,3 @@
 .displayBox {
     display: none;
 }
-

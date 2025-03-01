@@ -3,9 +3,8 @@
 }
 
 .footer_Container {
-    display: flex;
+    align-items: var(--center-align);
     justify-content: space-between;
-    align-items: center;
 }
 
 .footer_Container__logo {
@@ -14,18 +13,17 @@
 }
 
 .footer_Container__icon {
-    font-size: 3rem;
     color: var(--very-light-color);
+    font-size: 3rem;
 }
 
 .footer_Container_socialMedia_icons {
-    display: flex;
     flex-direction: row-reverse;
+    cursor: var(--pointer);
     gap: 1rem;
-    cursor: pointer;
 }
 
 .footer_Container_socialMedia_icons i:hover {
+    transition: var(--transition-effect);
     color: var(--contrast-color);
-    transition: 0.4s ease-in-out;
 }

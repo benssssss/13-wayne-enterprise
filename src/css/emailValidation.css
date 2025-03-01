@@ -1,6 +1,6 @@
 .container {
-    border-radius: 50px;
     border: 2px solid var(--soft-dark-color);
+    border-radius: 50px;
     height: 40px;
 }
 
@@ -10,18 +10,18 @@ input[type="email"] {
 }
 
 .email_container {
+    height: var(--full-size);
     justify-content: end;
-    height: var(--full-height);
 }
 
 .email_submit {
-    position: relative;
-    width: 70px;
     background-color: var(--very-light-color);
-    height: 28px;
-    right: 4px;
-    bottom: -4px;
     border-radius: 30px;
+    position: relative;
+    height: 28px;
+    bottom: -4px;
+    width: 70px;
+    right: 4px;
 }
 
 .email_submit:hover {
@@ -32,17 +32,17 @@ input[type="email"] {
 
 input[type="email"] {
     color: var(--contrast-color);
-    padding: 1rem;
     background-color: transparent;
+    padding: 0 0 0 2rem;
     position: absolute;
-    height: 37px;
     border-radius: 30px;
+    height: 37px;
 }
 
 #error-msg {
-    display: none;
+    text-align: var(--center-align);
     color: var(--contrast-color);
     font-size: 14px;
     margin-top: 4px;
-    text-align: var(--center-align);
+    display: none;
 }
